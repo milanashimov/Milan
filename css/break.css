@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: "Mulish", sans-serif;
+}
+body * {
+  margin: 0px;
+  padding: 0px;
+}
+body header {
+  width: 100%;
+}
+body header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+body header nav div:nth-child(1) {
+  width: 30%;
+}
+body header nav div:nth-child(1) img {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  cursor: pointer;
+}
+body header nav div:nth-child(2) {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  padding-top: 25px;
+}
+body header nav div:nth-child(2) a {
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 500ms;
+}
+body header nav div:nth-child(2) a:hover {
+  color: #3CDBD3;
+}
+body main {
+  width: 100%;
+}
+body main .Scroll_Bar .swiper {
+  width: 100%;
+  height: 90vh;
+}
+body main .Scroll_Bar .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body main .Scroll_Bar .swiper-slide div:nth-child(1) {
+  width: 50%;
+  padding-left: 5%;
+  text-align: left;
+  line-height: 30px;
+}
+body main .Scroll_Bar .swiper-slide div:nth-child(1) h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+body main .Scroll_Bar .swiper-slide div:nth-child(1) p {
+  line-height: 30px;
+  font-weight: 500;
+  padding: 10px 0px;
+}
+body main .Scroll_Bar .swiper-slide div:nth-child(1) p span {
+  font-weight: 900;
+}
+body main .Scroll_Bar .swiper-slide div:nth-child(2) {
+  width: 50%;
+}
+body main .Scroll_Bar .swiper-slide div:nth-child(2) img {
+  width: 100%;
+}
+body main .Scroll_Bar .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body main .Scroll_Bar .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+body main .Scroll_Bar .swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
+}
+body footer {
+  width: 100%;
+  background-color: black;
+}
+body footer .Foot {
+  width: 90%;
+  margin: 0px 5%;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px;
+}
+body footer .Foot div {
+  color: white;
+  line-height: 30px;
+}
+body footer .Foot div a {
+  color: white;
+  text-decoration: none;
+}
+body footer .Foot div ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=break.css.map */

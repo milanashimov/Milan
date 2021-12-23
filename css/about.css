@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: "Mulish", sans-serif;
+}
+body * {
+  margin: 0px;
+  padding: 0px;
+}
+body header {
+  width: 100%;
+}
+body header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+body header nav div:nth-child(1) {
+  width: 30%;
+}
+body header nav div:nth-child(1) img {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  cursor: pointer;
+}
+body header nav div:nth-child(2) {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  padding-top: 25px;
+}
+body header nav div:nth-child(2) a {
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 500ms;
+}
+body header nav div:nth-child(2) a:hover {
+  color: #3CDBD3;
+}
+body header .Box_1 {
+  width: 100%;
+  background: url("https://www.orangesmile.com/ru/foto/usa/fodder120119.jpg") center/cover;
+  height: 300px;
+  text-align: center;
+  color: white;
+}
+body header .Box_1 h1 {
+  padding-top: 100px;
+  font-size: 50px;
+}
+body header .Box_1 p {
+  font-size: 20px;
+  padding-top: 10px;
+  color: white;
+}
+body main {
+  width: 100%;
+}
+body main .Box_3 {
+  width: 100%;
+  background-color: #3CDBD3;
+}
+body main .Box_3 .Block_3 {
+  width: 80%;
+  margin: 0px 10%;
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 0px;
+}
+body main .Box_3 .Block_3 div {
+  display: flex;
+  width: 100%;
+}
+body main .Box_3 .Block_3 div img {
+  width: 50px;
+}
+body main .Box_3 .Block_3 div div {
+  display: block;
+}
+body main .Box_3 .Block_3 div div p {
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+}
+body main .Box_10 {
+  width: 100%;
+  display: flex;
+}
+body main .Box_10 div {
+  width: 50%;
+}
+body main .Box_10 div:nth-child(1) img {
+  width: 100%;
+}
+body main .Box_10 div:nth-child(2) {
+  padding-left: 8%;
+  padding-top: 100px;
+}
+body main .Box_10 div:nth-child(2) h1 {
+  font-size: 30px;
+}
+body main .Box_10 div:nth-child(2) p {
+  padding-top: 10px;
+}
+body main .Box_10 div:nth-child(2) h3 {
+  padding-top: 20px;
+  font-family: "Luxurious Script", cursive;
+  font-size: 80px;
+}
+body main .Project {
+  text-align: center;
+  width: 100%;
+  padding: 80px 0px;
+}
+body main .Project h1 {
+  font-size: 50px;
+}
+body main .Project button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #3CDBD3;
+  border: none;
+  color: white;
+}
+body footer {
+  width: 100%;
+  background-color: black;
+}
+body footer .Foot {
+  width: 90%;
+  margin: 0px 5%;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px;
+}
+body footer .Foot div {
+  color: white;
+  line-height: 30px;
+}
+body footer .Foot div a {
+  color: white;
+  text-decoration: none;
+}
+body footer .Foot div ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=about.css.map */
